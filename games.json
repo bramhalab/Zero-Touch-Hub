@@ -4,7 +4,7 @@
         "title": "Fruit Cutter",
         "category": "Arcade",
         "description": "Slice and dice your way to absolute high scores in this fast-paced classic.",
-        "icon_url": "https://raw.githubusercontent.com/brandy1335/Fruit-cutter/main/assets/icon.png",
+        "icon_url": "https://raw.githubusercontent.com/brandy1335/Fruit-cutter/main/assets/splash.png",
         "game_url": "https://brandy1335.github.io/Fruit-cutter/",
         "featured": true,
         "tags": [
@@ -39,6 +39,7 @@
     }
 
 ]
+
 
 
 
