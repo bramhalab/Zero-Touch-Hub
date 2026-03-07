@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Hub - Fruit Cutter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="ambient-glow"></div>
+
+    <nav>
+        <div class="logo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 22h20L12 2z" />
+            </svg>
+            <span>Zero Touch Hub</span>
+        </div>
+    </nav>
+
+    <main>
+        <div class="hero" id="hero-section">
+            <button id="hero-prev" class="hero-nav-btn prev">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M15 18l-6-6 6-6" />
+                </svg>
+            </button>
+            <button id="hero-next" class="hero-nav-btn next">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 18l6-6-6-6" />
+                </svg>
+            </button>
+
+            <div class="hero-content">
+                <span class="badge">Featured Release</span>
+                <h1 class="title" id="featured-title">Loading<br>Game<span class="dot">.</span></h1>
+                <p class="description" id="featured-desc">Please wait while the games are being loaded...</p>
+                <div class="actions">
+                    <a href="#" class="play-button" id="featured-link">
+                        <span class="btn-text">Play Game</span>
+                        <div class="btn-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="glass-platform"></div>
+                <div class="game-cover">
+                    <!-- Icon loaded via inline style or CSS class -->
+                    <div class="cover-image" id="featured-icon"></div>
+                    <div class="cover-glow" id="featured-glow"></div>
+                </div>
+                <div class="floating-elements">
+                    <div class="particle p1"></div>
+                    <div class="particle p2"></div>
+                    <div class="particle p3"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- All Games Section -->
+        <section class="more-games" id="categories-container">
+            <!-- Javascript will inject grouped games here -->
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
