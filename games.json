@@ -25,12 +25,12 @@
         ]
     },
     {
-        "id": "block-puzzle",
-        "title": "Block Puzzle",
+        "id": "suduko-puzzle",
+        "title": "Suduko Free",
         "category": "Puzzle",
         "description": "Mind-bending logic puzzles to test your brain.",
-        "icon_url": "",
-        "game_url": "#",
+        "icon_url": "https://raw.githubusercontent.com/bramhalab/Suduko-Free/refs/heads/main/icon.png",
+        "game_url": "https://bramhalab.github.io/Suduko-Free/",
         "featured": false,
         "tags": [
             "Puzzle",
